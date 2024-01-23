@@ -1,0 +1,48 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+/* Judul */
+h1 {
+  padding: 10px;
+  text-align: center;
+} 
+
+span {
+  color: green;
+}
+/* Select */
+select.form-control-select {
+  display: flex;
+}
+
+.form-control-select {
+  border-radius: 5px;
+}
+
+select option {
+  text-align: center;
+}
+/* form umur */
+.form-label-umur {
+  display: flex;
+}
+
+.form-umur {
+  border-radius: 5px;
+}
+/* border */
+input {
+  border: 1px solid black;
+}
+
+input.form-control {
+  border: 1px solid black;
+}
+
+textarea.form-control {
+  border: 1px solid black;
+}
+/* button */
+.btn:hover {
+  text-decoration: underline;
+}
